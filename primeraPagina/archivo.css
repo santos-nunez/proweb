@@ -1,0 +1,86 @@
+
+.barra{
+ background: black;
+ color: white;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 20px;
+}
+.item{
+ display: block;
+ width: 100%;
+ padding: 10px 30px;
+}
+.item:hover{
+ background: #bf00ff;
+}
+
+table{
+ background-color: white;
+ text-align:left;
+ color: black;
+ border-collapse: collapse;
+ with: 100%;
+}
+th, td{
+ border: solid 1px black;
+ border-color: black;
+ padding: 5px;
+}
+thead{
+ background-color: #0033cc;
+ color: white;
+ border-bottom: solid 5px #002699;
+}
+thead tr{
+ background-color: #0033cc; 
+}
+tbody tr:nth-child(odd){
+ background-color: #b3ffd9; 
+}
+h1{
+ color: #33d6ff;
+ text-decoration: underline;
+}
+p{
+ font-family: 'Satisfy', cursive;
+}
+.main-photo{
+ margin: 10px;
+ width: auto;
+ float: left;
+ border: solid;
+ padding: 0px;
+ border-width: 5px;
+ border-color: black;
+ -webkit-box-shadow: 8px 8px 10px #909090;
+ -moz-box-shadow: 8px 8px 10px #909090;
+ box-shadow:8px 8px 10px #909090;
+}
+.subseccion{
+ border: solid;
+ border-width: 2px;
+ border-color: black;
+ background: linear-gradient(#88ff4d, transparent);
+}
+
+ul {
+  list-style: none;
+  padding: 2px;
+  margin: 0;
+}
+
+li::before {
+  content: "» ";
+  color: #0000b3;
+  padding: 2px;
+}
+
+.formulario{
+  width: 250px;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px 1px rgba(0,0,0,0.3);
+}
